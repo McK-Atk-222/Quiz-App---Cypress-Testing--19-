@@ -16,6 +16,7 @@ npm i, npm build
 
 ## Usage
 npm run start
+DEMO VIDEO: https://app.screencastify.com/v3/watch/UiqtGriHDbQu5GZ71NJH
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
