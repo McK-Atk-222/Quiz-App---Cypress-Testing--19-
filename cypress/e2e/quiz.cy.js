@@ -1,0 +1,43 @@
+describe("Quiz", () => {
+    beforeEach(() => {
+        cy.visit("/")
+    })
+
+    it("showsQuestions", () => {
+
+        cy.get("button").contains("Start Quiz")
+        cy.get("button").contains("Start Quiz").click()
+    })
+    it("completeQuiz", () => {
+        cy.get("button").contains("Start Quiz")
+        cy.get("button").contains("Start Quiz").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get('h2').contains("Quiz Completed")
+    })
+    it("restartQuiz", () => {
+        cy.get("button").contains("Start Quiz")
+        cy.get("button").contains("Start Quiz").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get("button").contains("1").click()
+        cy.get('h2').contains("Quiz Completed")
+        cy.get("button").contains("Take New Quiz").click()
+        cy.get("button").contains("1").click()
+    })
+})

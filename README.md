@@ -1,7 +1,7 @@
 # Quiz App - Cypress Testing
 
 ## Description
-Fully functioning Tech Quiz application that is enhanced by adding Cypress for both component and end-to-end tests. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It allows users to take a quiz of ten random questions and view their final score.
+Fully functioning Tech Quiz application about python that is enhanced by adding Cypress for both component and end-to-end tests. This can be run once app is installed, built, and running by using 'npm run test' command. The app itself was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It allows users to take a quiz of ten random questions and view their final score.
 
 ## Table of Contentsf
 - [Installation](#installation)
@@ -12,7 +12,7 @@ Fully functioning Tech Quiz application that is enhanced by adding Cypress for b
 - [Questions](#questions)
 
 ## Installation
-npm i
+npm i, npm build
 
 ## Usage
 npm run start
